@@ -7,7 +7,7 @@ async function getData(e, searchTerm) {
     try {
         e.preventDefault();
         const searchTerm = inputValue.value;
-        const API_URL = `https://api.nasa.gov/planetary/apod?api_key=GLHzhZqyb81Q01i0foEhOCpekFuluhEjne23uu3O&date=${searchTerm}
+        const API_URL = `https://api.nasa.gov/planetary/apod?api_key=&date=${searchTerm}
       `;
         // const API_URL = `https://images-api.nasa.gov/search?q=${searchTerm}`;
         await fetch(`${API_URL}`)
