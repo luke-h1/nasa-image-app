@@ -1,0 +1,18 @@
+
+.form-group { 
+  display: flex ; 
+  flex-direction: column;
+  justify-content: center; 
+}
+
+#nasaSearch{
+  font-size: 2em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#btn { 
+  
+  width: 50%; 
+  margin: 0 auto;
+}
