@@ -19,22 +19,22 @@ async function getData(e, searchTerm) {
                 for (const [date, explanation, hdurl] in arr) {
                     let output = `
                     <div class="wrapper"> 
-            <div class="row ">
-            <div class="col s10 m5">
-              <div class="card">
-                <div class="card-image">
-                  <img src="${arr.hdurl}">
-                  <span class="card-title">${arr.title}</span>
-                </div>
-                <div class="card-content">
-                  <p>${arr.explanation}</p>
-                </div>
-                <div class="card-action">
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
+                        <div class="row ">
+                        <div class="col s10 m5">
+                          <div class="card">
+                            <div class="card-image">
+                              <img src="${arr.hdurl}">
+                              <span class="card-title">${arr.title}</span>
+                            </div>
+                            <div class="card-content">
+                              <p>${arr.explanation}</p>
+                            </div>
+                            <div class="card-action">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                   </div>
             `;
                     imageResult.innerHTML = output;
                 }

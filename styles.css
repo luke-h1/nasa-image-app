@@ -1,33 +1,31 @@
-
-.form-group { 
-  display: flex ; 
-  flex-direction: column;
-  justify-content: center; 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#nasaSearch{
-  font-size: 2em;
-  width: 50%;
-  margin: 0 auto;
+#nasaSearch {
+    font-size: 2em;
+    width: 50%;
+    margin: 0 auto;
 }
 
-#btn { 
-  
-  width: 50%; 
-  margin: 0 auto;
+#btn {
+    width: 50%;
+    margin: 0 auto;
 }
 
-img { 
-  width: 100%;
+img {
+    width: 100%;
 }
 
-.wrapper { 
-  max-width: 50%;
-  max-height: 50%;
- display: flex; 
- flex-direction: column;
-}  
+.wrapper {
+    max-width: 50%;
+    max-height: 50%;
+    display: flex;
+    flex-direction: column;
+}
 
-.wrapper > * { 
-  margin: 0 auto ; 
+.wrapper > * {
+    margin: 0 auto;
 }
