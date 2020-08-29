@@ -15,7 +15,8 @@ async function getData(e, searchTerm) {
             .then((res) => {
                 console.log(res);
                 // const arr = res;
-                let output = `
+                let output = ` 
+                <div class="container"> 
                 <div class="wrapper"> 
                 <div class="row ">
                 <div class="col s10 m5">
@@ -25,7 +26,7 @@ async function getData(e, searchTerm) {
                       <span class="card-title">${res.title}</span>
                     </div>
                     <div class="card-content">
-                      <p>${res.explanation}</p>
+                      <p style="font-size:20px;">${res.explanation}</p>
                     </div>
                     <div class="card-action">
                     </div>
@@ -33,6 +34,7 @@ async function getData(e, searchTerm) {
                 </div>
               </div>
            </div>
+           </div> 
                 `;
                 imageResult.innerHTML = output;
             });

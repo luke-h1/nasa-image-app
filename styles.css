@@ -20,12 +20,23 @@ img {
 }
 
 .wrapper {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 65%;
+    max-height: 30%;
     display: flex;
     flex-direction: column;
 }
 
 .wrapper > * {
     margin: 0 auto;
+}
+
+.description { 
+    font-size: 25px ; 
+}
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
 }
