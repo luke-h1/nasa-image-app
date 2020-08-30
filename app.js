@@ -19,14 +19,14 @@ async function getData(e, searchTerm) {
                 <div class="container"> 
                 <div class="wrapper"> 
                 <div class="row ">
-                <div class="col s10 m5">
-                  <div class="card">
+                <div class="col s1 m1 center">
+                  <div class="card col s12 m12 center">
                     <div class="card-image">
-                      <img src="${res.url}">
+                      <img src="${res.url}" width="450" >
                       <span class="card-title">${res.title}</span>
                     </div>
                     <div class="card-content">
-                      <p style="font-size:20px;">${res.explanation}</p>
+                      <p class="explanation">${res.explanation}</p>
                     </div>
                     <div class="card-action">
                     </div>
