@@ -8,5 +8,4 @@
   
   
  ## TODO: 
-  * add turnary operator to use the non-hd image url if the API doesn't return the 'hdurl' in the response  
   * setup vercel.json to hide API key instead of just using the DEMO_KEY when deployed 
