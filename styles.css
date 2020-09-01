@@ -45,3 +45,18 @@ img {
     letter-spacing: 1px;
 }
 
+.loader { 
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.loading { 
+    margin-top: 2rem;
+    max-width: 300px;
+    max-height: 300px;
+    display: none;
+}
+
